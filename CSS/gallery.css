@@ -1,0 +1,35 @@
+@media only screen and (min-width: 800px) {
+    .column {
+        width: 50%;
+        padding: 0 6px;
+    }
+
+    #row {
+        padding: 0 6px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .column {
+        width: 25%;
+    }
+}
+
+#row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px 12px;
+    vertical-align: middle;
+    background: #33504e;
+}
+
+.column {
+    max-width: 100%;
+    vertical-align: middle;
+    background: #133038;
+}
+
+.column img {
+    padding: 10px 0;
+    width: 100%;
+}

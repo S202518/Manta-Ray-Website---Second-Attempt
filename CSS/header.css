@@ -1,0 +1,34 @@
+@media only screen and (min-width: 800px) {
+    nav {
+        float: right;
+        font-size: 125%;
+        gap: 2rem;
+    }
+
+    header {
+        padding: 30px 0;
+    }
+}
+
+header {
+    background: #399caa;
+    overflow: hidden;
+    position: relative;
+}
+
+h1 {
+    color: #12404f;
+    padding: 10px 20px;
+    margin: 0;
+    text-align: center;
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+    gap: 1rem;
+    font-weight: bolder;
+}

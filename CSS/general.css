@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    background: #eaf7f3;
+    margin:0; 
+    padding: 0;
+}
+
+main {
+    background: #03426b;
+    padding: 100px 0;
+    margin: auto;
+}
+
+a {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 2px;
+    color: #c7c9bb;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #91b4ad;
+    color: #03426b;
+}
+

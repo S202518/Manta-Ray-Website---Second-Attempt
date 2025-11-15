@@ -1,0 +1,25 @@
+footer {
+    background: #192840;
+    padding: 50px 0;
+    text-align: center;
+    color: #add6da;
+}
+
+footer {
+    color: #c7c9bb;
+}
+
+footer a {
+    color: #c7c9bb;
+}
+
+footer img {
+    max-width: 1em;
+    max-height: 1em;
+    margin-left: .2em;
+}
+
+footer a:hover {
+    background: #12404f;
+    color: #add6da;
+}

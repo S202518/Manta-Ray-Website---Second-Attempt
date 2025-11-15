@@ -1,0 +1,66 @@
+@media only screen and (min-width: 800px) {
+    form {
+        width: 75%
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    form {
+        width: 60%
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    form {
+        width: 45%
+    }
+}
+
+#main-form {
+    background: #34828c;
+    display:block;
+}
+
+form {
+    background: #879c96;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 35px;
+}
+
+label {
+    color: #12404f;
+    font-weight: 1000;
+}
+
+input {
+    border: 1px solid #133038;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 8px 0;
+    padding: 12px 20px;
+    width: 100%;
+}
+
+textarea {
+    border: 1px solid #133038;
+    border-radius: 4px;
+    height: 150px;
+    width: 100%;
+}
+
+button {
+    background: #33504e;
+    border: none;
+    border-radius: 4px;
+    color: #c7c9bb;
+    cursor: pointer;
+    margin: 8px 0;
+    padding: 14px 20px;
+    font-size: 130%;
+    width: 100%;
+}
+
+button:focus, button:hover {
+    filter: brightness(125%);
+}

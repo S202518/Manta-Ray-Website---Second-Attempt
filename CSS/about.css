@@ -1,0 +1,77 @@
+@media only screen and (min-width: 1000px) {
+    #container1 {
+        grid-area: area1;
+    }
+
+    #container2 {
+        grid-area: area2;
+    }
+
+    #container3 {
+        grid-area: area3;
+    }
+
+    #container4 {
+        grid-area: area4;
+    }
+
+    #container5 {
+        grid-area: area5;
+    }
+
+    #container6 {
+        grid-area: area6;
+    }
+
+    #six-containers {
+        grid-template-areas:
+        'area1 area4 area5'
+        'area2 area4 area5'
+        'area3 area4 area6';
+    }
+}
+
+main > div {
+    background: #759e97;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+main > div > h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color:#03426b;
+    display: block;
+    margin-bottom: 20px;
+}
+
+main > div > p {
+    font-size: 18px;
+    font-weight:800;
+    text-align: left;
+}
+
+#six-containers {
+    background: #133038;
+    display: grid;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.about-source {
+    font-size: 60%;
+}
+
+.photographer {
+    font-size: 110%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#unsplash-licensing {
+    font-size: 55%;
+}

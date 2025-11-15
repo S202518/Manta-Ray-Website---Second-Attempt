@@ -1,0 +1,75 @@
+@media only screen and (min-width: 800px) {
+    .sources {
+        float: right;
+    }
+
+    #home-main {
+        display: flex;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        width: 30%;
+        justify-content: center;
+        gap: 2rem; 
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        display: inline;
+        float: right;
+        width: 70%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #d0e1f8;
+}
+
+aside {
+    background: #003354;
+    font-size: 120%;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+aside a {
+    color: #67C2C4;
+    display: block;
+    padding: 10px 0;
+}
+
+aside a:hover {
+    background: #399caa;
+    color: #eaf7f3;
+}
+
+#hero_image {
+    max-width: 100%;
+}
+
+article {
+    color: #d0e1f8;
+    font-size: 120%;
+    padding: 30px 30px;
+
+}
+
+.sources {
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+    flex-wrap: wrap;
+    color: #879c96;
+    justify-content: center;
+    margin: 0;
+    padding: 10px;
+}
